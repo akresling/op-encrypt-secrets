@@ -1,0 +1,18 @@
+# Never track plaintext inputs, decrypted manifests, credentials or key material.
+*.env.plain
+.env
+.env.*
+*.plain
+*.plain.*
+*.decrypted.*
+*.key
+*.pem
+*.agekey
+age-keys.txt
+keys.txt
+.op-encrypt-secrets-*
+
+# Local build outputs.
+/op-encrypt-secrets
+*.test
+/coverage.out
